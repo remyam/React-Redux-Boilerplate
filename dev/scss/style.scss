@@ -1,5 +1,45 @@
 $primary: #006699;
 
+html, body{
+    height: 100%;
+}
+
 h2 {
 	color: $primary;
+}
+a {
+	color: white;
+	cursor: pointer;
+}
+#sidebar-wrapper {
+    top: 50px;
+    width: 200px;
+    background-color: #5677fc;
+    color: white;
+    position: fixed;
+    height: 43%;
+    z-index: 1;
+    overflow: auto;
+}
+
+.sidebar-nav {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.sidebar-nav li {
+  text-indent: 20px;
+  line-height: 100px;
+  border: 1px solid #777;
+  width: 200px;
+}
+#main-container{
+	padding-left: 230px;
+}
+#root {
+	height: 50%;
+	width: 100%;
+	border: 1px solid #ccc;
 }
